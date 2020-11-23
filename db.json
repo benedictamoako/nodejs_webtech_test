@@ -1,0 +1,18 @@
+{
+  "clients": [
+    {
+      "Firstname": "Foster",
+      "Lastname": "Atanga",
+      "email": "fosteratanger123@yahoo.com",
+      "password": "acity",
+      "Date": "2020-11-23T13:27:43.788Z"
+    },
+    {
+      "Firstname": "Foster",
+      "Lastname": "Atanga",
+      "email": "amoakobenedict@gmail.com",
+      "password": "kweku",
+      "Date": "2020-11-23T13:30:13.317Z"
+    }
+  ]
+}
