@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About</title>
+
+    <link rel="stylesheet" href="style.css">
+    <!-- bootstrap stylesheeets -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/css/bootstrap.min.css"
+        integrity="sha384-TX8t27EcRE3e/ihU7zmQxVncDAy5uIKz4rEkgIXeMed4M0jlfIDPvg6uqKI2xXr2" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
+        crossorigin="anonymous"></script>
+
+</head>
+
+<body style="background-color: #e3f2fd;">
+
+    <!-- navigation menu bar -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: #e3f2fd;">
+        <a class="navbar-brand" href="index.html">
+            <img src="data:image/png;base64,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"
+                width="40" height="40" alt="" loading="lazy">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="about.html">About<span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="gallery.html">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="team.html">Team</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="reviews.html">Reviews</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html">Contact</a>
+                </li>
+            </ul>
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!-- end navigation bar -->
+
+    <div style="background-color: #ceeafd;">
+        <div class="container" id="aboutHeading">
+            <h1><b>About The Rover Team</b></h1>
+        </div>
+
+        <div class="container" id="aboutContainerDiv">
+            <div class="row">
+                <div class="col-sm">
+                    <img src="photos/about-us.jpg" alt="" width="100%" height="100%">
+                </div>
+                <div class="col-sm" id="aboutCol2Div">
+                    <h5><b>Our Mission</b></h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Placeat expedita aliquid natus animi
+                        ratione pariatur ad quibusdam ab vero odio laudantium ut dolore qui, nam tenetur facilis quod
+                        maxime
+                        obcaecati!</p>
+                    <h5><b>Our Vision</b></h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel officiis laudantium tenetur
+                        aspernatur
+                        quasi ad id quas minima ut assumenda odio nemo ullam repudiandae iste magni asperiores deserunt,
+                        nam
+                        quod!</p>
+                </div>
+            </div>
+        </div>
+
+        <div class="container" id="aboutHeading2">
+            <h1><b>Features of The Rover</b></h1>
+        </div>
+
+        <div class="container" id="featuresGridDiv">
+            <div class="row">
+                <div class="col-sm">
+                    <h5>Ultrasonic Sensor</h5>
+                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. In incidunt quis repudiandae non
+                        eligendi fugiat aliquam, dignissimos minus officia enim, doloremque molestias voluptas
+                        asperiores quo, tempore natus? Voluptatem, eum libero.</p>
+                </div>
+                <div class="col-sm">
+                    <h5>Infrared Sensor</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Inventore possimus expedita dolor eaque!
+                        Et dolorem quae doloribus, minus id ipsum facilis reprehenderit? Delectus magnam assumenda
+                        veritatis recusandae nihil incidunt ab!</p>
+                </div>
+                <div class="col-sm">
+                    <h5>6-Volt Motors</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Placeat, dolores eum. Quae inventore
+                        similique vero voluptas, earum repellendus doloremque voluptatibus labore accusantium autem
+                        libero, cumque quas quo dolores odio. Repellat.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container" id="footerDiv">
+        <a href="https://fb.com" id="footerLink">Facebook</a> &nbsp;
+        <a href="https://twitter.com" id="footerLink">Twitter</a> &nbsp;
+        <a href="https://linkedin.com" id="footerLink">Linkedin</a>
+        <div>
+            <p>Made with love by Benedict Amoako</p>
+        </div>
+    </div>
+</body>
+
+</html>

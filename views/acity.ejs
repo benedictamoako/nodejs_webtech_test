@@ -1,0 +1,127 @@
+<html>
+
+    <!-- head: not seen in the -->
+    <head>
+            <title>My first website</title>
+    </head>
+
+    <!-- body -->
+    <body>
+        <h1>
+            Hello : <%= name%>
+        </h1>
+        <h3><a href="#goDown">Down</a></h3>
+
+        <!-- tables -->
+        <table border="1" style="width:70%;">
+            <tr><th>Names</th><th>Cars</th></tr>
+            <tr><td>Benedict</td><td>Ferrari</td></tr>
+            <tr><td>Julius</td><td>Honda</td></tr>
+        </table>
+
+
+
+        <!-- ordered list -->
+        <ol>
+            <li>Lion</li>
+            <li>Hen</li>
+            <li>Dog</li>
+
+                <!-- unordered list -->
+                <ul>
+                    <li>Dog</li>
+                    <li>Bitch</li>
+                    <li>Puppy</li>
+                </ul>
+            <li>Sheep</li>
+            <li>Horse</li>
+        </ol>
+
+        <ul>
+            <li>Apple</li>
+            <li>Orange</li>
+            <li>Banana</li>
+                <ul>
+                    <li>Apple</li>
+                    <li>Orange</li>
+                    <li>Banana</li>
+                        <ul>
+                            <li>Apple</li>
+                            <li>Orange</li>
+                            <li>Banana</li>
+                            <li>Pear</li>
+                            <li>Pineapple</li>
+                        </ul>
+                    <li>Pear</li>
+                    <li>Pineapple</li>
+                </ul>
+            <li>Pear</li>
+            <li>Pineapple</li>
+        </ul>
+
+        &copy; &nbsp; &reg;
+        <p>
+            Send me a mail by clicking on my name <a href="mailto:benedict.amoako@acity.edu.gh">benedict</a>
+        </p>
+
+        <img src="activity.png" alt="Activity Picture">
+        
+        <h1>Hello</h1>
+
+        <img src="data:image/jpeg;base64,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">
+    
+        <h1><b>FORMS</b></h1>
+
+        <h3>Registration Form</h3>
+        <form method="POST" action="https://acity.edu.gh">
+
+            Name: <input name="fullName" type="text">
+            <br></br>
+
+            Email: <input name="email" type="email">
+            <br></br>
+
+            Programme: <input type="radio" name="programme"> <label>Computer Science</label>
+                        <input type="radio"name="programme"> <label>IT</label>
+                        <input type="radio" name="programme"> <label>Business Administration</label>
+                        <br></br>
+
+            Gender: 
+                <select name="gender">
+                    <option>Male</option>
+                    <option>Female</option>
+                </select>  
+                <br><br>   
+                
+            Inerests:
+                <input type="checkbox"> <label>Eating</label>
+                <input type="checkbox"> <label>Watching Anime</label>
+                <input type="checkbox"> <label>Sports</label>
+                <br><br>
+
+            <!-- Profile Image: <input type="file"> -->
+            <!-- <br><br> -->
+
+            <button type="submit">Send Form</button>
+            <input type="submit" value="Submit Form">
+            <button type="reset">Reset</button> 
+
+        </form>
+
+
+        <!-- mailto form -->
+        <form action="mailto:amoakobenedict@gmail.com">
+            what is your issue?: <input name="subject" type="text">
+            <br><br>
+
+            Give a breif description <br>
+            <textarea name="body" id="" cols="30" rows="10"></textarea>
+            <br><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+        <h3 id="goDown">Bottom</h3>
+    </body>
+
+
+</html>

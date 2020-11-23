@@ -1,0 +1,119 @@
+#contactHeadDiv{
+    text-align: center;
+}
+
+#contactFormContainer{
+    display: flex;
+    justify-content: center;
+    background-color: #ceeafd;
+    border-radius: 2rem;
+    padding-bottom: 1rem;
+}
+
+#contactSubmitButtonDiv, #cardButtonDiv{
+    display: flex;
+    justify-content: center;
+}
+
+#colImage{
+    width: 30rem;
+    height: 30rem;
+    border-radius: 2rem;
+}
+
+#firstName, #lastName, #company, #inputEmail, #inputPhone{
+    background-color: transparent;
+    color: black;
+    outline: none;
+    outline-style: none;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom: solid black 1px;
+    padding: 3px 10px;
+}
+
+#messagebox{
+    background-color: transparent;
+    color: black;
+    outline: none;
+    outline-style: none;
+    border: solid black 1px;
+    padding: 3px 10px;
+}
+
+#contactDivCol1, #contactDivCol2, #instructorsHeading{
+    padding: 2rem;
+}
+
+#teamIntroDiv, #aboutCol2Div{
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+#teamCardsHeader{
+    display: flex;
+    justify-content: center;
+}
+
+h5, p{
+    text-align: center;
+    font-family: cursive;
+}
+
+#cardContainerDiv{
+    padding-bottom: 2rem;
+}
+
+#aboutContainerDiv, #aboutHeading2, #reviewCardConatiner{
+    padding-top: 2rem;
+}
+
+#aboutHeading, #aboutHeading2{
+    text-align: center;
+    font-family: cursive;
+}
+
+#featuresGridDiv{
+    padding: 1rem;
+}
+
+#reviewsHeading, #galleryHeading{
+    text-align: center;
+    font-family: cursive;
+    padding: 1rem;
+}
+
+#mainReviewDiv, #mainGalleryDiv{
+    background-color: #ceeafd;
+    padding-bottom: 2rem;
+}
+
+#galleryImage{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    padding: 1rem;
+}
+
+#carouselImageDiv{
+    width: 50rem;
+    padding: 2rem;
+}
+
+#carouselImage{
+    border-radius: 5rem;
+}
+
+#indexParagraph{
+    text-align: left;
+}
+
+#footerDiv{
+    padding: 1rem;
+}
+
+#footerLink{
+    text-decoration: none;
+    color: black;
+}
