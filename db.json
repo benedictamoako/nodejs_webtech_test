@@ -1,18 +1,25 @@
 {
   "clients": [
     {
-      "Firstname": "Foster",
-      "Lastname": "Atanga",
-      "email": "fosteratanger123@yahoo.com",
-      "password": "acity",
-      "Date": "2020-11-23T13:27:43.788Z"
+      "Firstname": "Benedict",
+      "Lastname": "Amoako",
+      "email": "amoakobenedict@gmail.com",
+      "password": "1234",
+      "Date": "2020-12-01T04:14:26.115Z"
     },
     {
-      "Firstname": "Foster",
-      "Lastname": "Atanga",
-      "email": "amoakobenedict@gmail.com",
-      "password": "kweku",
-      "Date": "2020-11-23T13:30:13.317Z"
+      "Firstname": "Makers",
+      "Lastname": "Alugu",
+      "email": "alugumakers@123.org",
+      "password": "1234",
+      "Date": "2020-12-01T04:20:11.055Z"
+    },
+    {
+      "Firstname": "Kelvin",
+      "Lastname": "Owusu",
+      "email": "kelvin.owusu@acity.edu.gh",
+      "password": "kelvinStone",
+      "Date": "2020-12-01T04:45:54.402Z"
     }
   ]
 }

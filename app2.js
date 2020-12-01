@@ -17,6 +17,8 @@ db.defaults({ clients: [], })
 var app = express();
 
 var fetch = require('node-fetch');
+const { response } = require('express');
+const { RequestTimeout } = require('http-errors');
 
 //setup templating engine
 app.set('view engine', 'ejs');
@@ -77,9 +79,34 @@ app.post('/registration', (request, response) => {
             Date: new Date()
             })
         .write()
-        response.send("You have been successfully registered!")
+        response.render("login.ejs", {
+
+        })
 });
 
+app.get('/login', (request, response) => {
+    response.render("login.ejs", {
+
+    })
+});
+
+app.post('/login', (request, response) => {
+    var dbEmail = db.get('clients')
+        .find({email: request.body.loginEmail})
+        .value();
+
+    var dbPassword =  db.get('clients')
+        .find({password: request.body.loginPassword})
+        .value();
+
+    if(dbEmail && dbPassword){
+        response.send("Welcome " + dbEmail.Firstname);
+    } else {
+        response.send("Invalid Email or Password");
+        return;
+    }
+    
+})
 
 app.get('/about', (request, response) => {
     response.render("about.ejs", {
